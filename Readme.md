@@ -8,11 +8,13 @@
 
 ### Data Structures
 
-- Arrays
-- Linked Lists
+- Array
+- Linked List
 - Stack
 - Queue
 - Hash table
+- Binary trees
+- Heap
 - Graphs
   - directed
   - undirected
@@ -32,5 +34,6 @@
 
 ### References
 
-- [Coding Interview University](https://github.com/jwasham/coding-interview-university)
-- [algoexpert.io](https://algoexpert.io)
+- [Coding interview university](https://github.com/jwasham/coding-interview-university)
+- [Algoexpert.io](https://algoexpert.io)
+- [Elements of programming interviews in python](https://www.goodreads.com/book/show/34791936-elements-of-programming-interviews-in-python)
