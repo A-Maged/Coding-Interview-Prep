@@ -3,6 +3,7 @@
 - learn the concept
 - solve a problem with it
 - maybe implement it (code, white board & google docs)
+- analyse complexty
 - add tests
 - practice problems online
 
@@ -24,13 +25,14 @@
 
 ### Sorting Algorithms
 
-- [x] bubble
+- [x] Bubble sort
 
-- selection
-- insertion
-- heapsort
-- quicksort
-- merge sort
+- Selection sort
+- [x] Insertion sort
+- Heap sort
+- Quick sort
+- Merge sort
+- Radix sort
 
 ### References
 
