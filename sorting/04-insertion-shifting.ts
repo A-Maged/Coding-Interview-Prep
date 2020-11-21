@@ -3,7 +3,8 @@ let arr = [3, 2, 9, 7, 1, 3, 0, 1];
 console.log(run(arr));
 
 function run(arr: number[]) {
-  for (let index = 0; index < arr.length; index++) {
+  /* using index=1 ,because we're assuming the first item is sorted (an array of one item is definitely sorted) */
+  for (let index = 1; index < arr.length; index++) {
     let currentItem = arr[index];
     let indexCopy = index;
 
