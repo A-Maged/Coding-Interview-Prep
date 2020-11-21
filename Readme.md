@@ -10,6 +10,8 @@
 ### Data Structures
 
 - Array
+- Maps (WeakMap)
+- Sets (WeakSet)
 - Linked List
 - Stack
 - Queue
@@ -22,6 +24,12 @@
   - adjacency matrix
   - adjacency list
   - traversals: BFS, DFS
+
+### Common techniques
+
+- [Two pointers](https://www.geeksforgeeks.org/two-pointers-technique/)
+
+- [Sliding window](https://youtu.be/MK-NZ4hN7rs)
 
 ### Sorting Algorithms
 
