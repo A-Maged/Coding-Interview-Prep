@@ -13,6 +13,12 @@
 - Stack
 - Queue
 - Hash table
+- Graphs
+  - directed
+  - undirected
+  - adjacency matrix
+  - adjacency list
+  - traversals: BFS, DFS
 
 ### Sorting Algorithms
 
@@ -21,12 +27,6 @@
 - heapsort
 - quicksort
 - merge sort
-- Graphs
-  - directed
-  - undirected
-  - adjacency matrix
-  - adjacency list
-  - traversals: BFS, DFS
 
 ### References
 
