@@ -3,7 +3,7 @@
 - learn the concept
 - solve a problem with it
 - maybe implement it (code, white board & google docs)
-- analyse complexty
+- analyse complexity
 - add tests
 - practice problems online
 
