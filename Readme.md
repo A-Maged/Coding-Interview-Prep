@@ -2,9 +2,9 @@
 
 - learn the concept
 - solve a problem with it
-- maybe implement it
-
-- practice on a white board & google docs
+- maybe implement it (code, white board & google docs)
+- add tests
+- practice problems online
 
 ### Data Structures
 
@@ -21,6 +21,8 @@
   - traversals: BFS, DFS
 
 ### Sorting Algorithms
+
+- [x] bubble
 
 - selection
 - insertion
