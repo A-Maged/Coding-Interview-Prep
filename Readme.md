@@ -30,5 +30,5 @@
 
 ### References
 
-[Coding Interview University](https://github.com/jwasham/coding-interview-university)
-[algoexpert.io](https://algoexpert.io)
+- [Coding Interview University](https://github.com/jwasham/coding-interview-university)
+- [algoexpert.io](https://algoexpert.io)
