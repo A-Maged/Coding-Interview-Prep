@@ -4,20 +4,20 @@ def threeNumberSum(array, targetSum):
 
     for i in range(len(array) - 1):
         currentNum = array[i]
-
+        # pointers
         left = i + 1
         right = len(array) - 1
 
         while left < right:
-            potentialComp = currentNum + array[left] + array[right]
+            currentSum = currentNum + array[left] + array[right]
 
-            if potentialComp == targetSum:
+            if currentSum == targetSum:
                 result.append([currentNum, array[left], array[right]])
 
                 # advance both pointers to keep searching for other matching pairs
                 right -= 1
                 left += 1
-            elif potentialComp > targetSum:
+            elif currentSum > targetSum:
                 right -= 1
             else:
                 left += 1
@@ -26,5 +26,8 @@ def threeNumberSum(array, targetSum):
 
 
 if __name__ == "__main__":
+    # result equals [[-8, 2, 6], [-8, 3, 5], [-6, 1, 5]]
     print(threeNumberSum([12, 3, 1, 2, -6, 5, -8, 6], 0))
-    # print(threeNumberSum([1, 2, 3], 6))
+
+    # result equals [[1, 2, 3]]
+    print(threeNumberSum([1, 2, 3], 6))
