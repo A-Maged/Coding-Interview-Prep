@@ -5,7 +5,7 @@
 - maybe implement it (code, white board & google docs)
 - analyse complexity
 - add tests
-- practice problems online
+- practice problems online (leetcode, hackerrank)
 
 ### Data Structures
 
@@ -16,6 +16,7 @@
 - Stack
 - Queue
 - Hash table
+- Hash set
 - Binary trees
 - Heap
 - Graphs
@@ -28,18 +29,18 @@
 ### Common techniques
 
 - [Two pointers](https://www.geeksforgeeks.org/two-pointers-technique/)
-
 - [Sliding window](https://youtu.be/MK-NZ4hN7rs)
+- Meet in the middle
+- Divide and conquer
 
 ### Sorting Algorithms
 
 - [x] Bubble sort
-
-- Selection sort
 - [x] Insertion sort
-- Heap sort
 - Quick sort
 - Merge sort
+- Selection sort
+- Heap sort
 - Radix sort
 
 ### References
