@@ -72,6 +72,21 @@ class SinglyLinkedList:
 
         return tail
 
+    def remove(self, key):
+        if self.isEmpty():  # empty list
+            return
+
+        if self.head.data == key:  # head is the target
+            self.clear()
+
+        current = self.head
+        while current and current.nextNode:
+            if current.nextNode.data == key:
+                current.nextNode = current.nextNode.nextNode  # skip next node
+                return
+
+            current = current.nextNode
+
     def reverse(self):
         # None --> (a) --> (b) --> (c) --> None
         prev = None
@@ -83,68 +98,18 @@ class SinglyLinkedList:
 
         # reverse links
         while current:
-            # copy current.next
-            nextNode = current.nextNode
-
-            # current point to prev (actual reversing)
-            current.nextNode = prev
-
-            # update prev with current (for coming iteration)
-            prev = current
-
-            # update current with next (advance pointer)
-            current = nextNode
+            nextNode = current.nextNode  # copy next node
+            current.nextNode = prev  # current point to prev (actual reversing)
+            prev = current  # update prev with current (for coming iterations)
+            current = nextNode  # advance pointer
 
     def clear(self):
         self.head = None
         self.tail = None
         self.size = 0
 
-    def remove(self, key):
-        def isTarget(curr): return curr.data == key
-
-        current = self.head
-        prev = None
-        while current and not isTarget(current):
-            prev = current
-            current = current.nextNode
-
-        # empty or single list
-        if self.isEmpty() or (self.isHead(current) and isTarget(current)):
-            self.clear()
-            return
-
-        # current will be none only if we didn't find it
-        if current:
-            # skip target node
-            prev.nextNode = current.nextNode
-            self.size -= 1
-
     def isEmpty(self):
         return not self.head or self.size == 0
-
-    def isHead(self, node):
-        return node == self.head
-
-    def remove2(self, key):
-        """
-        Remove the first occurrence of `key` in the list.
-        Takes O(n) time.
-        """
-        # Find the element and keep a
-        # reference to the element preceding it
-        curr = self.head
-        prev = None
-        while curr and curr.data != key:
-            prev = curr
-            curr = curr.nextNode
-
-        # Unlink it from the list
-        if prev is None:
-            self.head = curr.nextNode
-        elif curr:
-            prev.nextNode = curr.nextNode
-            curr.nextNode = None
 
     def __str__(self):
         currentNode = self.head
@@ -175,7 +140,7 @@ if __name__ == "__main__":
     mylist.pushFront(3)
     print(mylist)
 
-    mylist.remove(9)
+    mylist.remove(1)
     print(mylist)
 
     mylist.popFront()
