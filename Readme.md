@@ -70,7 +70,6 @@
 - [MIT 6.006 Introduction to Algorithms, Fall 2011](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
 - [Algorithms Course - Graph Theory Tutorial from a Google Engineer](https://youtu.be/09_LlHjoEiY)
 - [Coding Interview University](https://github.com/jwasham/coding-interview-university)
-- [WilliamFiset](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsB6SWUrDFW2RmDotAfPbeHu)
 
 # Practice Problems
 
