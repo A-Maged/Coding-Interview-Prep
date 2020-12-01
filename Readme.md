@@ -8,7 +8,7 @@
    2. use optimized solution
 
 4. run a test case to see if your solution works
-5. ask if you should procced
+5. ask if you should proceed with coding your solution
 
 ### Data Structures
 
