@@ -1,4 +1,4 @@
-### Steps to solving a problem
+# Steps to solving a problem
 
 1. repeate the problem
 2. ask clarifying questions
@@ -10,7 +10,7 @@
 4. run a test case to see if your solution works
 5. ask if you should proceed with coding your solution
 
-### Data Structures
+# Data Structures
 
 - Array
 - Linked List
@@ -31,17 +31,17 @@
   - Adjacency List
   - Traversals: BFS, DFS
 
-### Common techniques
+# Common techniques
 
-- [[Article] 14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
-- [[Article] The Ultimate Strategy to Preparing for a Coding Interview](https://medium.com/better-programming/the-ultimate-strategy-to-preparing-for-the-coding-interview-ee9f7eb439f3)
-- [[Article] Two Pointers](https://www.geeksforgeeks.org/two-pointers-technique/)
-- [[Video] Sliding Window](https://youtu.be/MK-NZ4hN7rs)
+- [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
+- [The Ultimate Strategy to Preparing for a Coding Interview](https://medium.com/better-programming/the-ultimate-strategy-to-preparing-for-the-coding-interview-ee9f7eb439f3)
+- [Two Pointers](https://www.geeksforgeeks.org/two-pointers-technique/)
+- [Sliding Window](https://youtu.be/MK-NZ4hN7rs)
 - Fast and Slow Pointers
 - Frequency Counter
 - Meet in The Middle
 
-### Algorithms
+# Algorithms
 
 - Sorting
 - Searching
@@ -51,7 +51,7 @@
 - Recursion
 - Graph Traversal (BFS and DFS)
 
-### Sorting Algorithms
+# Sorting Algorithms
 
 - Bubble sort
 - Insertion sort
@@ -61,7 +61,7 @@
 - Radix sort
 - Heap sort
 
-### Material
+# Material
 
 - [Cracking The Coding Interview Playlist](https://www.youtube.com/playlist?list=PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt)
 - [Data Structures Easy to Advanced Course - Full Tutorial From a Google Engineer](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsB6SWUrDFW2RmDotAfPbeHu)
