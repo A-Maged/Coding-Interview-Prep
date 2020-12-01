@@ -53,13 +53,13 @@
 
 ### Sorting Algorithms
 
-- [ ] Bubble sort
-- [ ] Insertion sort
-- [ ] Quick sort
-- [ ] Merge sort
-- [ ] Selection sort
-- [ ] Radix sort
-- [ ] Heap sort
+- Bubble sort
+- Insertion sort
+- Quick sort
+- Merge sort
+- Selection sort
+- Radix sort
+- Heap sort
 
 ### Material
 
