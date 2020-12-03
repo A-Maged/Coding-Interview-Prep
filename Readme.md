@@ -1,6 +1,6 @@
 # Steps to solving a problem
 
-1. repeate the problem
+1. repeate the problem in your own words
 2. ask clarifying questions
 3. solve it conceptually without code
 
