@@ -65,6 +65,7 @@
 
 - [Cracking The Coding Interview Playlist](https://www.youtube.com/playlist?list=PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt)
 - [Data Structures Easy to Advanced Course - Full Tutorial From a Google Engineer](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsB6SWUrDFW2RmDotAfPbeHu)
+- [CS310 Data Structures in Java at San Diego State University](https://www.youtube.com/playlist?list=PLpPXw4zFa0uKKhaSz87IowJnOTzh9tiBk)
 - [Stanford Algorithms: part 1](https://www.youtube.com/playlist?list=PLXFMmlk03Dt7Q0xr1PIAriY5623cKiH7V)
 - [Stanford Algorithms: part 2](https://www.youtube.com/playlist?list=PLXFMmlk03Dt5EMI2s2WQBsLsZl7A5HEK6)
 - [MIT 6.006 Introduction to Algorithms, Fall 2011](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -83,6 +84,7 @@
 
 # Misc
 
+- [Interview Experiences on geeksforgeeks.org](https://www.geeksforgeeks.org/company-interview-corner/)
 - [Visualgo](https://visualgo.net/en)
 - [Levels.fyi](https://www.levels.fyi)
 - [Blind](https://www.teamblind.com/topics/Job-Groups/Software-Engineering)
