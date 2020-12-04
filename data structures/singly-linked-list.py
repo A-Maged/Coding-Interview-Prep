@@ -8,6 +8,13 @@ class Node:
 
 
 class SinglyLinkedList:
+    """ 
+        All methods must handle these cases:
+            empty list:         None
+            single element:     (a) -> None
+            multiple elements:  (a) -> (b) -> None
+    """
+
     def __init__(self, headData=None):
         self.__head = Node(headData) if headData else None
         self.__tail = None
@@ -54,29 +61,21 @@ class SinglyLinkedList:
         return currentHead
 
     def pop(self):
-        if self.isEmpty():
-            return None
-
-        # single node
-        if not self.__head.nextNode:
-            head = self.__head
-            self.clear()
-            return head
-
-        # traverse til the second-last node
-        prev = None
         current = self.__head
-        while current.nextNode:
+        prev = None
+
+        while current:
+            if not current.nextNode:  # reached the end
+                if not prev:  # popping head
+                    self.clear()
+                else:
+                    prev.nextNode = None
+                    self.__tail = prev
+                    self.__size -= 1
+
+            # advance loop
             prev = current
             current = current.nextNode
-
-        # swap tail with prev
-        tail = prev.nextNode
-        prev.nextNode = None
-        self.__tail = prev
-        self.__size -= 1
-
-        return tail
 
     def remove(self, key):
         if self.isEmpty():  # empty list
