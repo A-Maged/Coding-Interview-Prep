@@ -9,57 +9,63 @@ class Node:
 
 class SinglyLinkedList:
     def __init__(self, headData=None):
-        self.head = Node(headData) if headData else None
-        self.tail = None
-        self.size = 0
+        self.__head = Node(headData) if headData else None
+        self.__tail = None
+        self.__size = 0
 
-    def pushFront(self, data):
-        node = Node(data, self.head)
+    def head(self):
+        return self.__head
+
+    def tail(self):
+        return self.__tail
+
+    def prepend(self, data):
+        node = Node(data, self.__head)
 
         if self.isEmpty():
-            self.tail = node
+            self.__tail = node
 
-        self.head = node
-        self.size += 1
+        self.__head = node
+        self.__size += 1
 
-    def pushBack(self, data):
+    def append(self, data):
         node = Node(data)
 
         if self.isEmpty():
-            self.head = self.tail = node
+            self.__head = self.__tail = node
         else:
-            self.tail.nextNode = node  # update link of the current tail
-            self.tail = node  # update class property to be the new node
+            self.__tail.nextNode = node  # update link of the current tail
+            self.__tail = node  # update class property to be the new node
 
-        self.size += 1
+        self.__size += 1
 
-    def popFront(self):
+    def popFirst(self):
         if self.isEmpty():
             return None
 
-        currentHead = self.head
-        self.head = currentHead.nextNode
+        currentHead = self.__head
+        self.__head = currentHead.nextNode
 
-        self.size -= 1
+        self.__size -= 1
 
-        if self.size == 0:
-            self.tail = None
+        if self.__size == 0:
+            self.__tail = None
 
         return currentHead
 
-    def popBack(self):
+    def pop(self):
         if self.isEmpty():
             return None
 
         # single node
-        if not self.head.nextNode:
-            head = self.head
+        if not self.__head.nextNode:
+            head = self.__head
             self.clear()
             return head
 
         # traverse til the second-last node
         prev = None
-        current = self.head
+        current = self.__head
         while current.nextNode:
             prev = current
             current = current.nextNode
@@ -67,8 +73,8 @@ class SinglyLinkedList:
         # swap tail with prev
         tail = prev.nextNode
         prev.nextNode = None
-        self.tail = prev
-        self.size -= 1
+        self.__tail = prev
+        self.__size -= 1
 
         return tail
 
@@ -76,10 +82,10 @@ class SinglyLinkedList:
         if self.isEmpty():  # empty list
             return
 
-        if self.head.data == key:  # head is the target
+        if self.__head.data == key:  # head is the target
             self.clear()
 
-        current = self.head
+        current = self.__head
         while current and current.nextNode:
             if current.nextNode.data == key:
                 current.nextNode = current.nextNode.nextNode  # skip next node
@@ -90,11 +96,11 @@ class SinglyLinkedList:
     def reverse(self):
         # None --> (a) --> (b) --> (c) --> None
         prev = None
-        current = self.head
+        current = self.__head
 
         # switch head & tail properties
-        self.head = self.tail
-        self.tail = current
+        self.__head = self.__tail
+        self.__tail = current
 
         # reverse links
         while current:
@@ -104,18 +110,21 @@ class SinglyLinkedList:
             current = nextNode  # advance pointer
 
     def clear(self):
-        self.head = None
-        self.tail = None
-        self.size = 0
+        self.__head = None
+        self.__tail = None
+        self.__size = 0
 
     def isEmpty(self):
-        return not self.head or self.size == 0
+        return not self.__head or self.__size == 0
+
+    def __len__(self):
+        return self.__size
 
     def __str__(self):
-        currentNode = self.head
-        result = 'head: ' + str(self.head)
-        result += ', tail: ' + str(self.tail)
-        result += ', size: ' + str(self.size) + '   |   '
+        currentNode = self.__head
+        result = 'head: ' + str(self.__head)
+        result += ', tail: ' + str(self.__tail)
+        result += ', size: ' + str(self.__size) + '   |   '
 
         while currentNode:
             result += str(currentNode.data)
@@ -126,23 +135,20 @@ class SinglyLinkedList:
 
         return result
 
-    def __len__(self):
-        return self.size
-
 
 if __name__ == "__main__":
     mylist = SinglyLinkedList()
 
-    mylist.pushBack(4)
-    mylist.pushFront(0)
-    mylist.pushBack(1)
-    mylist.pushBack(9)
-    mylist.pushFront(3)
+    mylist.append(4)
+    mylist.prepend(0)
+    mylist.append(1)
+    mylist.append(9)
+    mylist.prepend(3)
     print(mylist)
 
     mylist.remove(1)
     print(mylist)
 
-    mylist.popFront()
-    mylist.popBack()
+    mylist.popFirst()
+    mylist.pop()
     print(mylist)
