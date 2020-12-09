@@ -70,7 +70,7 @@
 - [Stanford Algorithms: part 1](https://www.youtube.com/playlist?list=PLXFMmlk03Dt7Q0xr1PIAriY5623cKiH7V)
 - [Stanford Algorithms: part 2](https://www.youtube.com/playlist?list=PLXFMmlk03Dt5EMI2s2WQBsLsZl7A5HEK6)
 - [MIT 6.006 Introduction to Algorithms, Fall 2011](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-- [Algorithms Course - Graph Theory Tutorial from a Google Engineer](https://youtu.be/09_LlHjoEiY)
+- [Algorithms Course - Graph Theory Tutorial from a Google Engineer](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P)
 - [Coding Interview University](https://github.com/jwasham/coding-interview-university)
 
 # Practice Problems
