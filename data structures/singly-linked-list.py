@@ -81,15 +81,18 @@ class SinglyLinkedList:
         if self.isEmpty():  # empty list
             return
 
-        if self.__head.data == key:  # head is the target
-            self.clear()
-
         current = self.__head
-        while current and current.nextNode:
-            if current.nextNode.data == key:
-                current.nextNode = current.nextNode.nextNode  # skip next node
-                return
+        prev = None
+        while current:
+            if current.data == key:  # found target
+                if not prev:  # removing head
+                    self.__head = current.nextNode
+                    self.__size -= 1
+                else:
+                    prev.nextNode = current.nextNode
+                    self.__size -= 1
 
+            prev = current
             current = current.nextNode
 
     def reverse(self):
