@@ -1,14 +1,19 @@
 # Steps to solving a problem
 
-1. repeate the problem in your own words
-2. ask clarifying questions
-3. solve it conceptually without code
+1. Read all constraints carefully
+2. Repeate the problem in your own words
+3. Ask clarifying questions
+4. Solve it conceptually without code
 
-   1. use the naive approach(bruteforce) first and state that it's not the optimal solution
-   2. use optimized solution
+   1. Explain the naive approach(bruteforce) first and state that it's not the optimal solution
+   2. Explain a more optimized solution
 
-4. run a test case to see if your solution works
-5. ask if you should proceed with coding your solution
+5. Run a test case to see if your solution works
+6. Ask if you should proceed with coding your solution
+
+- [Competitive Programming: How to Approach a Problem (as a red coder)](https://youtu.be/2TNyrw4hkIY)
+- [7 Steps to Solve Algorithm Problems](https://youtu.be/GKgAVjJxh9w)
+- [3 Algorithm Strategies](https://youtu.be/84UYVCluClQ)
 
 # Data Structures
 
