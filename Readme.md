@@ -46,7 +46,7 @@
 - Sorting
 - Searching
 - Divide and Conquer
-- Dynamic Programming and Memorization
+- Dynamic Programming and Memoization
 - Greedy
 - Recursion
 - Graph Traversal (BFS and DFS)
