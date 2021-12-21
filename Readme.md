@@ -37,7 +37,7 @@
   - Traversals: BFS, DFS
 
 # Common techniques
-
+- [Grokking the Coding Interview: Patterns for Coding Questions](https://www.educative.io/courses/grokking-the-coding-interview)
 - [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
 - [The Ultimate Strategy to Preparing for a Coding Interview](https://medium.com/better-programming/the-ultimate-strategy-to-preparing-for-the-coding-interview-ee9f7eb439f3)
 - [Two Pointers](https://www.geeksforgeeks.org/two-pointers-technique/)
