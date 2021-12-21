@@ -42,7 +42,7 @@
 - [The Ultimate Strategy to Preparing for a Coding Interview](https://medium.com/better-programming/the-ultimate-strategy-to-preparing-for-the-coding-interview-ee9f7eb439f3)
 - [Two Pointers](https://www.geeksforgeeks.org/two-pointers-technique/)
 - [Sliding Window](https://youtu.be/MK-NZ4hN7rs)
-- Fast and Slow Pointers
+- [Fast and Slow Pointers - Floyd's cycle detection algorithm(Tortoise and hare)](https://youtu.be/PvrxZaH_eZ4)
 - Frequency Counter
 - Meet in The Middle
 
