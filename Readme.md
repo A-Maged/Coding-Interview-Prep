@@ -81,7 +81,7 @@
 
 # Practice Problems
 
-- [Algoexpert.io (Paid)](https://algoexpert.io)
+- [Algoexpert.io (Paid) (Video)](https://algoexpert.io)
 - [10 popular coding interview problems course - Inside code (Video)](https://youtu.be/o3DUXPRyvT8)
 - [Elements of Programming Interviews in Python [Book]](https://www.goodreads.com/book/show/34791936-elements-of-programming-interviews-in-python)
 - [Leetcode](http://leetcode.com)
