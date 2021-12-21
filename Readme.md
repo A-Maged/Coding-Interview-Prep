@@ -75,7 +75,6 @@
 - [Stanford Algorithms: part 1 (Video)](https://www.youtube.com/playlist?list=PLXFMmlk03Dt7Q0xr1PIAriY5623cKiH7V)
 - [Stanford Algorithms: part 2 (Video)](https://www.youtube.com/playlist?list=PLXFMmlk03Dt5EMI2s2WQBsLsZl7A5HEK6)
 - [MIT 6.006 Introduction to Algorithms, Spring 2020 (Video)](https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY)
-- [10 popular coding interview problems course - Inside code (Video)](https://youtu.be/o3DUXPRyvT8)
 - [MIT 6.006 Introduction to Algorithms, Fall 2011 (Video)](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
 - [Algorithms Course - Graph Theory Tutorial from a Google Engineer (Video)](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P)
 - [Coding Interview University (Text)](https://github.com/jwasham/coding-interview-university)
@@ -83,6 +82,7 @@
 # Practice Problems
 
 - [Algoexpert.io (Paid)](https://algoexpert.io)
+- [10 popular coding interview problems course - Inside code (Video)](https://youtu.be/o3DUXPRyvT8)
 - [Elements of Programming Interviews in Python [Book]](https://www.goodreads.com/book/show/34791936-elements-of-programming-interviews-in-python)
 - [Leetcode](http://leetcode.com)
 - [Back To Back SWE (Video)](https://www.youtube.com/c/BackToBackSWE/playlists)
